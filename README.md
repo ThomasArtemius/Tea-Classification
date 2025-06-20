@@ -13,7 +13,6 @@ The data splitting is relatively straightforward. I use 2 samples from each tea 
 From the picture above, I ensure the training data has good variability
 # Feature Engineering
 Each features in the data are extracted into set of new features that contains information of: mean, standard deviation, median, min, max, range, p25, p75, iqr, skewness, and kurtosis. Because of it, each feature will be extracted become 11 features. Therefore, the total features for the data is 66.
-![](https://github.com/ThomasArtemius/Tea-Classification/blob/main/Data/New%20Data/engineered_tea_features_train.csv)
 # Methods
 Logistic Regression, SVM, and Random Forest
 # Result
